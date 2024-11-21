@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Hey {first} 🤝🤝\n\nWelcome to 👑 L-FLIX PREMIUM 👑\n\nYou need to pay your subscription of 4000/= in order to access more episodes\n\nPlease read the instructions below to join 👇👇</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Hey {first} 🤝🤝\n\nWelcome to .........\n\nYou need to subscribe to our before accessing the video/file.\n\nPlease click  below to join 👇👇</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
