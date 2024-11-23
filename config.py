@@ -36,7 +36,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","")
-START_MSG = os.environ.get("START_MESSAGE", "𝐇𝐞𝐥𝐥𝐨 <b>{first}</b> 🤝🤝\n\n 𝐓𝐡𝐢𝐬 𝐢𝐬 𝐚𝐧 𝐋-𝐅𝐋𝐈𝐗 𝐬𝐩𝐞𝐜𝐢𝐚𝐥 𝐛𝐨𝐭 𝐰𝐡𝐢𝐜𝐡 𝐬𝐭𝐨𝐫𝐞𝐬 𝐟𝐢𝐥𝐞𝐬 𝐢𝐧 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 𝐚𝐧𝐝 𝐮𝐬𝐞𝐫𝐬 𝐚𝐜𝐜𝐞𝐬𝐬 𝐭𝐡𝐞𝐦 𝐟𝐫𝐨𝐦 𝐚 𝐬𝐩𝐞𝐜𝐢𝐚𝐥 𝐥𝐢𝐧𝐤")
+START_MSG = os.environ.get("START_MESSAGE", "𝐇𝐞𝐥𝐥𝐨 <b>{first}</b> 🤝🤝\n\n 𝐓𝐡𝐢𝐬 𝐢𝐬 𝐊𝐀𝐌𝐏𝐀𝐋𝐀 𝐑𝐄𝐋𝐀𝐗𝐀𝐓𝐈𝐎𝐍 𝐬𝐩𝐞𝐜𝐢𝐚𝐥 𝐛𝐨𝐭 𝐰𝐡𝐢𝐜𝐡 𝐬𝐭𝐨𝐫𝐞𝐬 𝐟𝐢𝐥𝐞𝐬 𝐢𝐧 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 𝐚𝐧𝐝 𝐮𝐬𝐞𝐫𝐬 𝐚𝐜𝐜𝐞𝐬𝐬 𝐭𝐡𝐞𝐦 𝐟𝐫𝐨𝐦 𝐚 𝐬𝐩𝐞𝐜𝐢𝐚𝐥 𝐥𝐢𝐧𝐤")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -45,7 +45,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐇𝐞𝐥𝐥𝐨 {first} 🤝🤝 \n\n<b>You need to join L-FLIX Group to use me\n\nKindly Please join group by clicking in the link button below👇👇</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐇𝐞𝐥𝐥𝐨 {first} 🤝🤝 \n\n<b>𝐘𝐨𝐮 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐣𝐨𝐢𝐧 𝐊𝐚𝐦𝐩𝐚𝐥𝐚 𝐑𝐞𝐥𝐚𝐱𝐚𝐭𝐢𝐨𝐧 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 𝐭𝐨 𝐮𝐬𝐞 𝐦𝐞\n\n 𝐏𝐥𝐞𝐚𝐬𝐞 𝐣𝐨𝐢𝐧 𝐠𝐫𝐨𝐮𝐩 𝐛𝐲 𝐜𝐥𝐢𝐜𝐤𝐢𝐧𝐠 𝐢𝐧 𝐭𝐡𝐞 𝐥𝐢𝐧𝐤 𝐛𝐮𝐭𝐭𝐨𝐧 𝐛𝐞𝐥𝐨𝐰 👇👇</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
