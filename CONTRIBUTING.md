@@ -19,3 +19,4 @@ In short, when you submit code changes, your submissions are understood to be un
 
 ## Report bugs using Github's [issues](https://github.com/CodeXBotz/File-Sharing-Bot/issues)
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/CodeXBotz/File-Sharing-Bot/issues); it's that easy!
+
